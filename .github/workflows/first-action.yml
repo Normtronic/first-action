@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello CI"
+      - name: Content of the file
+        run: |
+          echo "First output"
+          echo "Second output"
       - name: Print goodbye
         run: echo "Goodbye CI"
